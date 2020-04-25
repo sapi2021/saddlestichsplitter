@@ -34,7 +34,7 @@
 python main.py < input.pdf > output.pdf
 ```
 
-指定可能なオプションは `--first_page [right|left]` のみ。 `first_page` を使って1枚目の左右どちらに表表紙があるかを指定する
+指定可能なオプションは `--first_page [right|left]` のみ。 `first_page` を使って1枚目の左右どちらに表表紙があるかを指定する。デフォルトは `left`
 
 ## 参考
 
