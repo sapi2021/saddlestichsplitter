@@ -31,6 +31,6 @@ def output_pages(pages: list):
         output.addPage(pages[i])
     output.write(open('/dev/stdout', 'wb'))
 
-sort_order = SortOrderFactory.create(get_args.first_page)
+sort_order = SortOrderFactory.create(get_args().first_page)
 reordered_pages = reorder_pages(sort_order)
 output_pages(reordered_pages)
