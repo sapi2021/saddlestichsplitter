@@ -1,4 +1,4 @@
-# saddlestichsplitter
+# saddlestitchsplitter
 
 ## 目的
 
